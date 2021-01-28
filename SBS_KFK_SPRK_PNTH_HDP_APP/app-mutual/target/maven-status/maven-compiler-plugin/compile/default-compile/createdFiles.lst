@@ -1,0 +1,6 @@
+com\ksh\crfi\mutual\utils\JsonObjectMapper.class
+com\ksh\crfi\app\common\entities\EntityBase.class
+com\ksh\crfi\app\common\entities\LogBean.class
+com\ksh\crfi\mutual\constants\ApplicationConstants.class
+com\ksh\crfi\mutual\utils\Utils.class
+com\ksh\crfi\app\common\entities\LogEntity.class

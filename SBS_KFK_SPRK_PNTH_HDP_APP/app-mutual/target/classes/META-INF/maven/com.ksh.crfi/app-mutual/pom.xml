@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                      http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>app-mutual</artifactId>
+	<version>1.0.0</version>
+	<packaging>jar</packaging>
+	<name>app-mutual</name>
+	
+	<parent>
+		<groupId>com.ksh.crfi</groupId>
+		<artifactId>app-global</artifactId>
+		<version>1.0.0-root</version>
+		<relativePath>../global/root-pom.xml</relativePath>
+	</parent>
+	<dependencyManagement>
+	<dependencies>
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-dependencies</artifactId>
+				<version>1.5.9.RELEASE</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+		</dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.hibernate.javax.persistence</groupId>
+				<artifactId>hibernate-jpa-2.1-api</artifactId>
+				<version>1.0.0.Final</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-starter-mail</artifactId>
+				<exclusions>
+					<exclusion>
+						<groupId>org.sl4j</groupId>
+						<artifactId>log4j-over-slf4j</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>ch.qos.logback</groupId>
+						<artifactId>logback-classic</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>ch.qos.logback</groupId>
+						<artifactId>logback-core</artifactId>
+					</exclusion>
+					
+				</exclusions>
+			</dependency>
+		</dependencies>
+</project>

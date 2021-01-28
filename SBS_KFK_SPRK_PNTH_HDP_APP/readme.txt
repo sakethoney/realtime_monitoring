@@ -1,0 +1,2 @@
+mvn install:install-file -DgroupId=jdk.tools -DartifactId=jdk.tools -Dpackaging=jar -Dversion=1.8 -Dfile=tools.jar -DgeneratePom=true
+mvn -Declipse.workspace="your Eclipse Workspace" eclipse:configure-workspacen

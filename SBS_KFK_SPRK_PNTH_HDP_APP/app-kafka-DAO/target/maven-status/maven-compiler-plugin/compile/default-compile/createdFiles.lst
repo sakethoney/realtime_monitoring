@@ -1,0 +1,11 @@
+com\ksh\crfi\app\kafka\dao\MessageProducerManager.class
+com\ksh\crfi\app\kafka\dao\log4j\KafkaLogAppender.class
+com\ksh\crfi\app\kafka\dao\MessageHandler.class
+com\ksh\crfi\app\kafka\dao\MessageHandlerFactory.class
+com\ksh\crfi\app\kafka\dao\MessageProducerManager$ErrorCallback.class
+com\ksh\crfi\app\kafka\dao\utils\KafkaUtils.class
+com\ksh\crfi\app\kafka\dao\log4j\KafkaLogAppender$MessagingCallback.class
+com\ksh\crfi\app\kafka\dao\constants\KafkaConst.class
+com\ksh\crfi\app\kafka\dao\MessageProducerManager$1.class
+com\ksh\crfi\app\kafka\dao\KafkaMessageListener.class
+com\ksh\crfi\app\kafka\dao\KafkaConsumerContainerFactory.class

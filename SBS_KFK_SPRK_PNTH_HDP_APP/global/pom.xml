@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                      http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.ksh.crfi</groupId>
+	<version>1.0.0</version>
+	<artifactId>app-global</artifactId>
+	<packaging>pom</packaging>
+	
+	<modules>
+		<module>../app-mutual</module>
+		<module>../app-spring-boot-common</module>
+		<module>../app-zookeeper-DAO</module>
+		<module>../spring-boot-controller-client</module>
+		<module>../app-hadoop-DAO</module>
+		<module>../app-kafka-DAO</module>
+		<module>../app-hbase-DAO</module>
+		<module>../app-authenticator-service</module>
+		<module>../auto-file-attestation</module>
+	</modules>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.5.1</version><!-- $NO-MVN-MAN-VER$ -->
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

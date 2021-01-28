@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                      http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>app-zookeeper-DAO</artifactId>
+	<version>1.0.0</version>
+	<packaging>jar</packaging>
+	<name>app-zookeeper-DAO</name>
+	
+	<parent>
+		<groupId>com.ksh.crfi</groupId>
+		<artifactId>app-global</artifactId>
+		<version>1.0.0-root</version>
+		<relativePath>../global/root-pom.xml</relativePath>
+	</parent>
+	
+	<dependencies>
+			<dependency>
+				<groupId>com.ksh.crfi</groupId>
+				<artifactId>app-mutual</artifactId>
+				<version>1.0.0</version>
+			</dependency>
+			<dependency>
+				<groupId>com.ksh.crfi</groupId>
+				<artifactId>app-spring-boot-common</artifactId>
+				<version>[1.0.0,1.1.0]</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.curator</groupId>
+				<artifactId>curator-recipes</artifactId>
+				<version>2.11.1</version>
+				<scope>test</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.curator</groupId>
+				<artifactId>curator-framework</artifactId>
+				<version>2.11.1</version>
+				<scope>test</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.curator</groupId>
+				<artifactId>curator-test</artifactId>
+				<version>2.11.1</version>
+				<scope>test</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.zookeeper</groupId>
+				<artifactId>zookeeper</artifactId>
+				<version>3.4.9</version>
+			</dependency>
+		</dependencies>
+</project>
